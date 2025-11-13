@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f8f8;
+  color: #2f2f2f;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+header h1 {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #4a5d3b;
+}
+
+header .emoji {
+  font-size: 1.4rem;
+}
+
+.intro {
+  margin-top: 0.5rem;
+  font-weight: 300;
+  color: #555;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.hero h2 {
+  font-size: 1.6rem;
+  color: #4a5d3b;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.hero .sub {
+  color: #444;
+  font-weight: 300;
+}
+
+.hero a {
+  color: #4a5d3b;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.areas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #4a5d3b;
+  margin-bottom: 0.8rem;
+  font-weight: 500;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #666;
+}
