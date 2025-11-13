@@ -1,78 +1,74 @@
-/* Fuentes y base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Inter', sans-serif;
-  margin: 0;
-  background-color: #f8f8f6;
-  color: #333;
-}
-
-/* --- Encabezado tipo “poster” --- */
-.hero {
-  background-color: #3e4a35; /* verde musgo oscuro */
-  color: white;
-  height: 60vh;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding-left: 10%;
-  position: relative;
-}
-
-.hero-text {
-  max-width: 600px;
-}
-
-.title {
-  font-size: 10rem;
-  font-weight: 900;
-  letter-spacing: -5px;
-  margin: 0;
-  line-height: 0.9;
-  color: #fff;
-}
-
-.subtitle {
-  font-size: 1.5rem;
-  color: #111;
-  background-color: #f8f8f6;
-  display: inline-block;
-  padding: 0.3em 0.8em;
-  margin-top: 1rem;
-  border-radius: 4px;
-  font-weight: 500;
-}
-
-/* --- Secciones --- */
-.intro {
-  text-align: center;
-  padding: 4rem 2rem;
-}
-
-.intro h2 {
-  color: #3e4a35;
-  margin-bottom: 0.5rem;
-}
-
-a {
-  color: #3e4a35;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.cards {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
+  background-color: #f8f8f8;
+  color: #2f2f2f;
+  line-height: 1.6;
   padding: 2rem;
-  flex-wrap: wrap;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+header h1 {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #4a5d3b;
+}
+
+header .emoji {
+  font-size: 1.4rem;
+}
+
+.intro {
+  margin-top: 0.5rem;
+  font-weight: 300;
+  color: #555;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.hero h2 {
+  font-size: 1.6rem;
+  color: #4a5d3b;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.hero .sub {
+  color: #444;
+  font-weight: 300;
+}
+
+.hero a {
+  color: #4a5d3b;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.areas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .card {
-  background: #fff;
-  border-radius: 16px;
+  background-color: #ffffff;
   padding: 1.5rem;
-  max-width: 300px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   transition: transform 0.2s ease;
 }
 
@@ -80,10 +76,15 @@ a {
   transform: translateY(-5px);
 }
 
-footer {
-  text-align: center;
-  padding: 2rem;
-  color: #666;
-  font-size: 0.9rem;
+.card h3 {
+  color: #4a5d3b;
+  margin-bottom: 0.8rem;
+  font-weight: 500;
 }
 
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #666;
+}
