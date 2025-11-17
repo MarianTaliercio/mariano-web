@@ -148,13 +148,16 @@ footer p {
 }
 
 /* RESPONSIVE */
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .cards-container {
     grid-template-columns: repeat(2, 1fr);
   }
 
   .intro-text {
-  font-size: 15px;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   
   .blog-grid {
@@ -167,6 +170,7 @@ footer p {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
