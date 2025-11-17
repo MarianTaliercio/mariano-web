@@ -48,10 +48,10 @@ nav a:hover {
   padding: 0 20px;
 }
 
-.hero h1 {
-  font-size: 32px;
-  margin-bottom: 25px;
-  letter-spacing: -1px;
+header h1 {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #4a5d3b;
 }
 
 .intro-text {
@@ -163,6 +163,7 @@ footer p {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
