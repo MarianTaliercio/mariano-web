@@ -14,31 +14,26 @@ body {
 }
 
 /* HEADER */
-header {
+.header-simple {
   width: 100%;
-  padding: 10px 0;
+  padding: 20px 0;
   background: #ffffff;
   border-bottom: 1px solid #e3e3e3;
+  text-align: center;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-}
-
-nav a {
+.header-link {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
   color: #111;
   letter-spacing: 0.5px;
 }
 
-nav a:hover {
+.header-link:hover {
   opacity: 0.6;
 }
+
 
 /* HERO */
 .hero {
@@ -170,6 +165,7 @@ footer p {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
