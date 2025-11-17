@@ -17,8 +17,6 @@ body {
 .header-simple {
   width: 100%;
   padding: 20px 0;
-  background: #ffffff;
-  border-bottom: 1px solid #e3e3e3;
   text-align: center;
 }
 
@@ -163,6 +161,7 @@ footer p {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
