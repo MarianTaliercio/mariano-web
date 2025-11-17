@@ -1,0 +1,165 @@
+/* RESET GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f8f8;
+  color: #2f2f2f;
+  line-height: 1.6;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* NAV */
+.header {
+  margin-bottom: 2rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 600;
+  color: #4a5d3b;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #4a5d3b;
+  font-weight: 400;
+}
+
+.nav-links a.active {
+  font-weight: 600;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  color: #4a5d3b;
+  margin-bottom: 1rem;
+}
+
+.intro-text {
+  max-width: 700px;
+  margin: 0 auto;
+  font-weight: 300;
+  color: #444;
+}
+
+/* SECCIÓN TARJETAS */
+.cards-section {
+  max-width: 900px;
+  margin: 0 auto 4rem auto;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 1.6rem;
+  color: #4a5d3b;
+  margin-bottom: 2rem;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+  text-align: left;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #4a5d3b;
+  font-weight: 500;
+}
+
+/* TARJETA ESPECIAL */
+.card-highlight {
+  background-color: #e9f5e2;
+  border-left: 5px solid #4a5d3b;
+}
+
+/* BLOG SECTION */
+.blog-section {
+  max-width: 900px;
+  margin: 0 auto 4rem auto;
+}
+
+.blog-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.blog-item {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.blog-item h3 {
+  color: #4a5d3b;
+  margin-bottom: 0.5rem;
+}
+
+.blog-item p {
+  color: #444;
+  font-weight: 300;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  margin-top: auto;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* MOBILE AJUSTES */
+@media (max-width: 768px) {
+  body {
+    padding: 1.5rem;
+  }
+
+  .intro-text {
+    padding: 0 1rem;
+    text-align: left;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+}
