@@ -7,15 +7,16 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  background: #f6f6f6;
-  color: #222;
+  background-color: #f8f8f8;
+  color: #2f2f2f;
   line-height: 1.6;
+  padding: 2rem;
 }
 
 /* HEADER */
 header {
   width: 100%;
-  padding: 20px 0;
+  padding: 10px 0;
   background: #ffffff;
   border-bottom: 1px solid #e3e3e3;
 }
@@ -162,4 +163,5 @@ footer p {
     grid-template-columns: 1fr;
   }
 }
+
 
