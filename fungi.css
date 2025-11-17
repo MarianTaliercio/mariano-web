@@ -48,13 +48,12 @@ header h1 {
 
 .intro-text {
   font-size: 16px;
-  padding: 10px;
 }
 
 /* ETAPAS */
 .etapas {
   text-align: center;
-  padding: 50px 20px;
+  padding: 50px 0px;
 }
 
 .etapas h2 {
@@ -95,7 +94,7 @@ header h1 {
 
 /* BLOG */
 .blog {
-  padding: 60px 20px 100px;
+  padding: 60px 0px 100px;
   text-align: center;
 }
 
@@ -160,6 +159,7 @@ footer p {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
