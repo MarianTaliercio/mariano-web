@@ -38,7 +38,7 @@ body {
   max-width: 800px;
   margin: 10px auto;
   text-align: center;
-  padding: 20px;
+  padding: 20px 0px;
 }
 
 header h1 {
@@ -161,6 +161,7 @@ footer p {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
