@@ -8,7 +8,7 @@
 body {
   font-family: 'Inter', sans-serif;
   background-color: #f8f8f8;
-  color: #2f2f2f;
+  color: #4a5d3b;
   line-height: 1.6;
   padding: 2rem;
 }
@@ -43,7 +43,7 @@ nav a:hover {
 /* HERO */
 .hero {
   max-width: 800px;
-  margin: 80px auto 60px;
+  margin: 10px auto;
   text-align: center;
   padding: 0 20px;
 }
@@ -163,5 +163,6 @@ footer p {
     grid-template-columns: 1fr;
   }
 }
+
 
 
