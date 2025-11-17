@@ -45,7 +45,7 @@ nav a:hover {
   max-width: 800px;
   margin: 10px auto;
   text-align: center;
-  padding: 0 20px;
+  padding: 20px;
 }
 
 header h1 {
@@ -153,6 +153,10 @@ footer p {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .intro-text {
+  font-size: 15px;
+  }
+  
   .blog-grid {
     grid-template-columns: 1fr;
   }
@@ -163,6 +167,7 @@ footer p {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
