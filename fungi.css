@@ -1,4 +1,4 @@
-/* RESET GENERAL */
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -7,159 +7,159 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #f8f8f8;
-  color: #2f2f2f;
+  background: #f6f6f6;
+  color: #222;
   line-height: 1.6;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
 }
 
-/* NAV */
-.header {
-  margin-bottom: 2rem;
+/* HEADER */
+header {
+  width: 100%;
+  padding: 20px 0;
+  background: #ffffff;
+  border-bottom: 1px solid #e3e3e3;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-weight: 600;
-  color: #4a5d3b;
-  text-decoration: none;
-}
-
-.nav-links {
+nav ul {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  justify-content: center;
+  gap: 40px;
 }
 
-.nav-links a {
+nav a {
   text-decoration: none;
-  color: #4a5d3b;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 500;
+  color: #111;
+  letter-spacing: 0.5px;
 }
 
-.nav-links a.active {
-  font-weight: 600;
+nav a:hover {
+  opacity: 0.6;
 }
 
 /* HERO */
 .hero {
+  max-width: 800px;
+  margin: 80px auto 60px;
   text-align: center;
-  margin-bottom: 3rem;
+  padding: 0 20px;
 }
 
 .hero h1 {
-  font-size: 2rem;
-  color: #4a5d3b;
-  margin-bottom: 1rem;
+  font-size: 52px;
+  margin-bottom: 25px;
+  letter-spacing: -1px;
 }
 
 .intro-text {
-  max-width: 700px;
-  margin: 0 auto;
-  font-weight: 300;
-  color: #444;
+  font-size: 18px;
+  opacity: 0.85;
 }
 
-/* SECCIÓN TARJETAS */
-.cards-section {
-  max-width: 900px;
-  margin: 0 auto 4rem auto;
+/* ETAPAS */
+.etapas {
   text-align: center;
+  padding: 50px 20px;
 }
 
-.section-title {
-  font-size: 1.6rem;
-  color: #4a5d3b;
-  margin-bottom: 2rem;
+.etapas h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
 }
 
 .cards-container {
+  max-width: 1100px;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
 }
 
 .card {
-  background-color: #ffffff;
-  padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  transition: transform 0.2s ease;
-  text-align: left;
+  background: white;
+  padding: 35px 25px;
+  border-radius: 16px;
+  box-shadow: 0px 3px 14px rgba(0,0,0,0.07);
+  transition: 0.2s ease;
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-4px);
 }
 
 .card h3 {
-  color: #4a5d3b;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
 }
 
-/* TARJETA ESPECIAL */
-.card-highlight {
-  background-color: #e9f5e2;
-  border-left: 5px solid #4a5d3b;
+/* Special card */
+.card.special {
+  background: #556b2f; /* Verde musgo */
+  color: white;
 }
 
-/* BLOG SECTION */
-.blog-section {
-  max-width: 900px;
-  margin: 0 auto 4rem auto;
+/* BLOG */
+.blog {
+  padding: 60px 20px 100px;
+  text-align: center;
 }
 
-.blog-container {
+.blog h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.blog-grid {
+  max-width: 1100px;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
 }
 
-.blog-item {
-  background-color: #ffffff;
-  padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+.blog-card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0px 3px 14px rgba(0,0,0,0.07);
+  text-align: left;
 }
 
-.blog-item h3 {
-  color: #4a5d3b;
-  margin-bottom: 0.5rem;
-}
-
-.blog-item p {
-  color: #444;
-  font-weight: 300;
+.blog-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 /* FOOTER */
-.footer {
+footer {
+  padding: 40px 0;
   text-align: center;
-  margin-top: auto;
-  font-size: 0.9rem;
-  color: #666;
+  background: #fff;
+  border-top: 1px solid #e3e3e3;
+  margin-top: 80px;
 }
 
-/* MOBILE AJUSTES */
-@media (max-width: 768px) {
-  body {
-    padding: 1.5rem;
+footer p {
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .intro-text {
-    padding: 0 1rem;
-    text-align: left;
-  }
-
-  .hero h1 {
-    font-size: 1.8rem;
+  .blog-grid {
+    grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 600px) {
+  .cards-container {
+    grid-template-columns: 1fr;
+  }
+}
+
