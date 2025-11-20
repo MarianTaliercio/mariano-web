@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<section class="nota-container">
+  <h1 class="nota-title">Las 3 Fases del Cultivo de Hongos</h1>
+
+  <p>
+    Si tuviéramos que analizar los procesos que tiene una Granja de Hongos, podríamos decir que existen 
+    <strong>3 partes bien marcadas</strong>:
+  </p>
+
+  <ul class="lista-fases">
+    <li>Siembra</li>
+    <li>Inoculación</li>
+    <li>Fructificación</li>
+  </ul>
+
+  <p>
+    Incluso para pensar en una estructura física de nuestra Granja, tenemos que contemplar estas 3 etapas del cultivo:  
+    una <strong>habitación “sucia”</strong> para la descontaminación,  
+    una <strong>habitación “higiénica”</strong> para la inoculación  
+    y finalmente una <strong>sala de fructificación</strong>.
+  </p>
+
+  <h2>¿Qué es lo primero que pensás cuando estás armando un proyecto?</h2>
+
+  <p>
+    <strong>El riesgo.</strong> Ese punto crítico que, si falla, arruina todo el camino.  
+    Desde una mirada marketinera podríamos hablar de un <strong>FODA</strong> de cada etapa del cultivo… ¡y sí!  
+    Necesitamos ser conscientes de las amenazas, por eso desde <strong>CultivosHons</strong> te compartimos este cuadro:
+  </p>
+
+  <!-- Imagen ejemplo -->
+  <figure class="imagen">
+    <img src="ruta_de_tu_imagen/fases_cultivo.png" alt="Cuadro de fases del cultivo de hongos">
+    <figcaption>Ejemplo de cuadro de variables por etapa</figcaption>
+  </figure>
+
+  <table class="tabla-riesgos">
+    <thead>
+      <tr>
+        <th>Fase</th>
+        <th>C°</th>
+        <th>HR</th>
+        <th>CO₂</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>FASE 1: SPAWN</td>
+        <td>🟡</td>
+        <td>🟢</td>
+        <td>🟢</td>
+      </tr>
+      <tr>
+        <td>FASE 2: INOCULACIÓN</td>
+        <td>🟡</td>
+        <td>🟡</td>
+        <td>🟢</td>
+      </tr>
+      <tr>
+        <td>FASE 3: FRUCTIFICACIÓN</td>
+        <td>🔴</td>
+        <td>🔴</td>
+        <td>🔴</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="aclaracion">
+    <strong>C°</strong> = Temperatura | 
+    <strong>HR</strong> = Humedad Relativa | 
+    <strong>CO₂</strong> = Dióxido de Carbono
+  </p>
+
+  <div class="leyendas">
+    <p><strong>🟢 VERDE:</strong> No hace falta intervención adicional.</p>
+    <p><strong>🟡 AMARILLO:</strong> Hay que estar alerta; recomendable tener aparatos de medición.</p>
+    <p><strong>🔴 ROJO:</strong> Se necesitan aparatos o tareas extras para mantener la estabilidad.</p>
+  </div>
+
+  <!-- FASE 0 -->
+  <section class="fase">
+    <h2>FASE 0: Descontaminación del sustrato</h2>
+
+    <p><strong>Espacio:</strong> Habitación “sucia” o zona de descontaminación</p>
+    <p><strong>Características:</strong> Amplio, con ventilación. Puede ser al aire libre, garaje o invernadero.</p>
+    <p><strong>Elementos:</strong> Autoclave, olla a presión, sistemas propios, cal, agua caliente, anafe a gas.</p>
+
+    <p>
+      La descontaminación del sustrato puede hacerse por <strong>esterilización</strong> (vapor a alta temperatura) 
+      o <strong>pasteurización</strong> (calor controlado), métodos que eliminan patógenos y competidores.
+    </p>
+
+    <p>
+      En mi caso, armé un barril de aceite de 200 litros con tapa y una jaula movible para sostener las bolsas. 
+      El calor lo doy con un anafe y una garrafa. Para mayor control, uso un reloj con termómetro.
+    </p>
+
+    <!-- Imagen ejemplo -->
+    <figure class="imagen">
+      <img src="ruta_de_tu_imagen/barril_sustrato.jpg" alt="Barril para descontaminación de sustrato">
+      <figcaption>Mi barril casero para descontaminar sustratos</figcaption>
+    </figure>
+  </section>
+
+  <!-- FASE 1 -->
+  <section class="fase fase-verde">
+    <h2>😁 FASE 1: SPAWN – SIEMBRA</h2>
+
+    <p><strong>Espacio:</strong> Laboratorio</p>
+    <p><strong>Características:</strong> Chico, controlado, aire limpio</p>
+    <p><strong>Elementos:</strong> Cutter, cinta de papel o parches, bolsas descontaminadas, inóculo frío.</p>
+
+    <p>
+      Se puede armar un mini laboratorio para manipular bolsas individualmente.  
+      La higiene es vital, y el aire limpio también.
+    </p>
+
+    <p>
+      Video de cómo inoculaba las bolsas:
+      <a href="https://www.instagram.com/p/CMSq6bnJGWz/" target="_blank">Ver video</a>
+    </p>
+  </section>
+
+  <!-- FASE 2 -->
+  <section class="fase fase-amarilla">
+    <h2>😁 FASE 2: INOCULACIÓN</h2>
+
+    <p><strong>Espacio:</strong> Sala oscura</p>
+    <p><strong>Características:</strong> Control, oscuridad, ventilación y calor estable</p>
+    <p><strong>Elementos:</strong> Estanterías, AC, termostato, ventilador</p>
+
+    <p>
+      La temperatura ideal para el micelio es entre <strong>18° y 22°C</strong>.  
+      El uso de calefactores o aire acondicionado puede bajar la humedad, pero en esta fase no es problemático.
+    </p>
+
+    <p>
+      En fase 1 y 2 no habría grandes inconvenientes si la humedad no supera los 60 puntos.  
+      Es importante que las bolsas no contengan agua para evitar bacterias o moscas.
+    </p>
+
+    <p>
+      Si la sala es chica, debe haber recambio de aire. En salas grandes, no es un problema.
+    </p>
+  </section>
+
+</section>
