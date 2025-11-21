@@ -1,0 +1,114 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f5f3ee;
+  color: #2e2e2e;
+  margin: 0;
+  line-height: 1.7;
+}
+
+.nota-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #2a2a2a;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 40px;
+  color: #314e36;
+  font-weight: 600;
+}
+
+ul.lista-fases {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+ul.lista-fases li {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.imagen {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.imagen img {
+  width: 100%;
+  max-width: 650px;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+}
+
+.imagen figcaption {
+  font-size: 0.9rem;
+  color: #5c5c5c;
+  margin-top: 8px;
+}
+
+.tabla-riesgos {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0;
+  font-size: 1rem;
+}
+
+.tabla-riesgos th {
+  background: #28492e;
+  color: #fff;
+  padding: 12px;
+  font-weight: 600;
+}
+
+.tabla-riesgos td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  background: #fff;
+}
+
+.aclaracion {
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+
+.leyendas p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+}
+
+.fase {
+  background: #ffffff;
+  border-left: 6px solid #7f9f7b;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+}
+
+.fase-verde {
+  border-left-color: #6a8f63;
+}
+
+.fase-amarilla {
+  border-left-color: #c7a348;
+}
+
+a {
+  color: #356b3f;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
